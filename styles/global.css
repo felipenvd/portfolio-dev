@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-inconsolata: "Inconsolata", serif;
+  --font-family-asap: "Asap", serif;
+  --font-family-maven-pro: "Maven Pro", serif;
+  --title-lg: 700 56px/120% var(--font-family-asap);
+  --title-md: 700 24px/120% var(--font-family-asap);
+  --title-sm: 700 16px/120% var(--font-family-asap);
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
+  --text-md: 400 16px/120% var(--font-family-maven-pro);
+  --text-sm: 400 14px/140% var(--font-family-maven-pro);
+  --bg-color: #16181D;
+  --text-color-primary: #C0C4CE;
+  --color-gray-100: #0D0E11;
+  --color-gray-200: #16181D;
+  --color-gray-300: #292C34;
+  --color-gray-400: #878EA1;
+  --color-gray-600: #E2E4E9;
+  --color-red: #E3646E;
+  --color-purple: #BB72E9;
+  --color-blue: #3996DB;
+}
+
+body {
+  background-color: var(--bg-color);
+  background-size: cover;
+  color: var(--text-color-primary);
+  font: var(--text-sm);
+}
+
+.container {
+  margin-inline: auto;
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--color-gray-600);
+}
+

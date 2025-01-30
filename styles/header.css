@@ -1,0 +1,56 @@
+.background-header {
+  background-image: url(../assets/images/background-header.png);
+  background-size: cover;
+  padding-top: 120px;
+  height: 100vh;
+}
+
+#intro {
+  width: 1040px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .info {
+    width: 680px;
+    margin-bottom: 80px;
+
+    img {
+      margin-bottom: 56px;
+    }
+
+    h1 {
+      margin-block: 8px 20px;
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+  }
+
+  ul li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: var(--color-gray-300);
+    padding: 8px 16px;
+    border-radius: 20px;
+  }
+
+  ul li img {
+    width: 24px;
+  }
+
+  ul + div {
+    margin-top: 120px;
+
+    img {
+      width: 32px;
+    }
+  }
+}
+
+

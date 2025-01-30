@@ -1,0 +1,37 @@
+.img-112 {
+  width: 112px;
+  height: 112px;
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-red {
+  color: var(--color-red);
+}
+
+.color-gray-400 {
+  color: var(--color-gray-400);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--color-gray-600)
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.color-gray-600 {
+  color: var(--color-gray-600);
+}
+
+.text-purple {
+  color: var(--color-purple);
+}
+
+.text-md {
+  font: var(--text-md);
+}
